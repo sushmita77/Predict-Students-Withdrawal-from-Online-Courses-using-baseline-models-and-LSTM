@@ -15,3 +15,14 @@ Hence, it is necessary to perform the student analysis on a weekly basis. The da
 ![image](https://user-images.githubusercontent.com/13360000/112727966-ea700c00-8f1c-11eb-8dd9-463395e6294f.png)
 
 ![image](https://user-images.githubusercontent.com/13360000/112727974-f360dd80-8f1c-11eb-958c-0bd34b8ff337.png)
+
+LSTM expects the training data in [samples, time steps, features] format.
+As the main objective of this research is prior identification of dropouts the time steps are kept low ( 5 ,10 ,15 weeks).
+The clickstreams arranged in a multidimensional format are the input to the LSTM model. The clickstreams across 20 different VLE materials will be used as the features and for every student data is maintained across all the 38 weeks.
+Thus the 3D data expected by LSTM illustrates that for all students we have per student 38 weeks and 20 resources.
+
+Lastly, a Merge Model will be created using the Functional API that will be comprised of the:
+
+    1)Feed-Forward Neural Network and the 
+    2)Long Short Term Memory
+

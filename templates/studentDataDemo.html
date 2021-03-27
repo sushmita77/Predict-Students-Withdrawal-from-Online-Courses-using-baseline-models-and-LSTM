@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+th, td {
+  padding: 15px;
+}
+h1{
+color: darkblue;
+}
+h2{
+color: darkblue;
+}
+
+
+</style>
+<body style="background-color:azure;">
+<h1> Student Information </h1>
+<h3> Student ID: <span style="color:teal"> {{demo_details['id_student']}} </span> </h3>
+<h3> Gender: <span style="color:teal"> {{demo_details['gender']}} </span></h3>
+<h3> Highest Education: <span style="color:teal">{{demo_details['highest_education']}}</span> </h3>
+<h3> Imd Band: <span style="color:teal">{{demo_details['imd_band']}}</span> </h3>
+<h3> Age Band: <span style="color:teal">{{demo_details['age_band']}} </span></h3>
+<h3> Disability: <span style="color:teal">{{demo_details['disability']}} </span></h3>
+<br>
+
+<h2>Student Courses, Presentations and Model Prediction </h2>
+ {% for i in range(0,no) %}
+	<table>
+    <tr>
+      <td>{{ mod_res[i][0] }}</td>
+      <td>{{ mod_res[i][1] }}</td>
+     
+      <td><span style="color:teal" style="font-weight:bold;"><b>{{ mod_res[i][2] }}</b></span></td>
+	  
+    </tr>
+	</table>
+  {% endfor %}
+
+
+<body>
+
+<head>	
+
+<html>

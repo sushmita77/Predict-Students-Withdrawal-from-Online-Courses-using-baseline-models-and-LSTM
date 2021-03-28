@@ -30,3 +30,9 @@ Lastly, a Merge Model will be created using the Functional API that will be comp
 
     1)Feed-Forward Neural Network and the 
     2)Long Short Term Memory
+    3
+
+![image](https://user-images.githubusercontent.com/13360000/112753460-9a9e4d00-8fcf-11eb-97e4-16ae5cff7837.png)
+![image](https://user-images.githubusercontent.com/13360000/112753514-b0ac0d80-8fcf-11eb-9405-d06d2cd70a49.png)
+
+
